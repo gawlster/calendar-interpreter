@@ -1,1 +1,11 @@
 # calendar-interpreter
+
+<h2>What the project is:</h2>
+<p>This project was assigned as Assignment 1 for the SENG265 course during the Spring 2022 semester at UVic. The main file, ```process_cal.c```takes as input from the command line a filename for a formatted XML file, as well as a start and end date. It will read the XML file and output a formatted list of events that fall between the start and end dates.</p>
+
+<br>
+
+<h2>What I learned while completing this project:</h2>
+<p>This was my first experience with C. When I started working on the project, I decided to write pseudocode for my intended algorithm. This allowed me to fully understand the problem and how my solution works. Perhaps the more difficult part of the project was translating my pseudocode into syntactically correct C code. I learned a lot about how pointers work and what situations they are necessary, which allowed me to use smaller 'helper functions' throughout the program to maintain readability. I learned of the difference between 'pass by value' and 'pass by reference' which was super useful in deciding the parameters for my functions. Another major concept I learned while completing this project was the use of Structs to function almost as arrays or lists, but with compatability for mixed types. This allowed me to store some pieces of information for each event, like event descriptions and the day of the week, as a String (or more appropriately a Character Array), while leaving some pieces, like year, month, and day, as integers.</p>
+<p>The last major concept I learned about that helped me complete the assignment was the use of typedef (or type definitions). This allowed me to condense my code by defining each event (stored as a structure) as its own type. This way I didn't have to redefine the event structure every time I wanted to use it.</p>
+<p>I learned most of these concepts from Bill Bird's YouTube Channel. Bill Bird is a professor at the University of Victoria. During COVID, he taught an online version of an introduction to C course called CSC111. Many of the videos he used while teaching that course are still available on YouTube, and proved to be very helpful throughout the assignment. The skeleton process_cal.c file, as well as the XML files and test files were created by SENG265 TA, Felipe Rivera.</p>
