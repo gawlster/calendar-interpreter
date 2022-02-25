@@ -1,7 +1,7 @@
 # calendar-interpreter
 
 <h2>What the project is:</h2>
-<p>This project was assigned as Assignment 1 for the SENG265 course during the Spring 2022 semester at UVic. The main file, ```process_cal.c```takes as input from the command line a filename for a formatted XML file, as well as a start and end date. It will read the XML file and output a formatted list of events that fall between the start and end dates.</p>
+<p>This project was assigned as Assignment 1 for the SENG265 course during the Spring 2022 semester at UVic. The main file, `process_cal.c` takes as input from the command line a filename for a formatted XML file, as well as a start and end date. It will read the XML file and output a formatted list of events that fall between the start and end dates.</p>
 
 <br>
 
